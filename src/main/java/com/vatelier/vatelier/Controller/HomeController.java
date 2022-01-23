@@ -1,0 +1,17 @@
+package com.vatelier.vatelier.Controller;
+
+import com.vatelier.vatelier.Entities.Products;
+import com.vatelier.vatelier.Service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/")
+public class HomeController {
+
+
+}
